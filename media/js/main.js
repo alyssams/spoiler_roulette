@@ -1,3 +1,7 @@
+var img = document.querySelector('img');
+var btn = document.querySelector('button');
+btn.addEventListener('click', GetValue, false);
+
 function GetValue() {
 
 	var spoilers = {
@@ -468,14 +472,16 @@ function GetValue() {
 	document.getElementById("title").innerHTML=random.title;
 	document.getElementById("summary").innerHTML=random.summary;
 
+    img.removeAttribute('style');
+    
+    var deg = 500 + Math.round(Math.random() * 500);
+    
+    var css = '-webkit-transform: rotate(' + deg + 'deg);';
+    
+    img.setAttribute(
+        'style', css
+    );
+
+	
+
 }
-
-// may switch to jquery
-// $.getJSON("media/js/spoiler.json", function(json) {
-//     console.log(json); 
-// });
-
-
-
-
-
