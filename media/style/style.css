@@ -212,7 +212,7 @@ button:hover {
   .tooltiptext {
     display: none;
   }
-/*  img.bg {
+  img.bg {
     height: 100%;
     width: 100%;
     top: 0;
@@ -220,7 +220,7 @@ button:hover {
     position: inherit;
     display: block;
     -webkit-transition: -webkit-transform 2s ease-out;
-  }*/
+  }
 }
 
 @media (min-width : 569px) and (max-width : 819px) { 
@@ -233,4 +233,5 @@ button:hover {
   h2 {
     font-size: 1.2em;
   }
+  .content 
 }
