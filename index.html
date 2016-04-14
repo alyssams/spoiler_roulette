@@ -3,15 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Spoiler Roulette!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Spoiler Roulette</title>
+	<meta name="description" content="Push your luck, spin the wheel, spoil a beloved story." />
+    <meta name="keywords" content="movies, tv, spoilers, roulette, drinking game, drinking, game" />
+    <meta name="author" content="Alyssa, Mike, &amp; Shane.">
+    <meta property="og:title" content="Spoiler Roulette" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.spoiler-roulette.com" />
+    <meta property="og:image" content="http://spoiler-roulette.com/media/images/socials.jpg" />
+    <meta property="og:site_name" content="Spoiler Roulette" />
+    <meta property="og:description" content="Push your luck, spin the wheel, spoil a beloved story."/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="media/style/style.css">
 </head>
 <body>
-	<div class="content">
-		<h1 id="title" >Spoiler Roulette</h1>
-		<h2 id="summary">Try your luck</h2>
-		<button onclick="GetValue();">Spin Again</button>
+	<div id="img-container">
+		<img class="bg" src="media/images/roulette-03.svg" />
 	</div>
+	<div class="outer">
+		<div class="middle">
+			<div class="content">
+				<h1 id="title" >Spoiler Roulette</h1>
+				<h2 id="summary">Ruining your favorite movies &amp; TV shows.</h2>
+				<button>SPIN THE WHEEL</button>
+				<!-- <div class="btn">spin</div> -->
+			</div>
+		</div>
+	</div>
+	
+	<div class="social">
+		<div class="addthis_sharing_toolbox" data-url="http://www.spoiler-roulette.com" data-title="Spin the wheel and be spoiled."></div>
+
+	 	<h6>Made by <span class="tooltip"><a href="http://alyssams.ghost.io" target="_blank">Alyssa</a><span class="tooltiptext">developer</span>
+		</span> &amp; <span class="tooltip">Mike<span class="tooltiptext">copywriter</span></span> &amp; <span class="tooltip">Shane<span class="tooltiptext">designer</span></span></h6>
+	</div>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-76438359-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5704c525da749ddb"></script>
 	<script src="media/js/main.js"></script>
 </body>
 </html>
