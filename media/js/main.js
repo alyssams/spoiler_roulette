@@ -175,7 +175,7 @@ function GetValue() {
 			"title":"Psycho", "summary":"Norman Bates dresses as his mother while murdering folks."
 		},{
 		"id": "57",
-			"title":"Star Wars: The Force Awakens", "summary":"Rey's the new Jedi,"
+			"title":"Star Wars: The Force Awakens", "summary":"Rey's the new Jedi."
 		},{
 		"id": "58",
 			"title":"Star Wars: The Force Awakens", "summary":"Kylo Ren kills his father, Han Solo."
